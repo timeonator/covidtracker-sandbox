@@ -28,9 +28,6 @@
       insertElement();
       console.log(JSON.stringify(response));
     }
-    let listElement = document.createElement("ul");
-    let listItem = document.createDocumentFragment();
-    let tag = document.getElementById("coviddata");
   }
 
   const Http = new XMLHttpRequest();
