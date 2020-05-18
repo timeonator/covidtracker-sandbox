@@ -8,7 +8,11 @@ document.getElementById("app").innerHTML = `
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
   <h1>Raw Data<h1>
   <div id="coviddata">
-    <ul id="usdata"></ul>
+    <ul id="usdata"></ul> 
+  </div>
+  <div class="states">
+    <select id="stateSelector" name="stateSelector">  
+    </select>
   </div>
 </div>
 `;
