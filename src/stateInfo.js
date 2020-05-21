@@ -21,7 +21,8 @@ class StateInfo {
 
       
       for (let i = 0; i < r.length; i++ ) {
-        console.log("handler execution" + JSON.stringify(stateInfoData[i].state));
+//       console.log("handler execution" + JSON.stringify(stateInfoData[i].state));
+        console.log(stateInfoData[i].state + ':' + stateInfoData[i].name)
      }
     }
   }
